@@ -1,5 +1,5 @@
-:root{
-
+:root {
+  --font-primary: Roboto,sans-serif;
 }
 .list {
   list-style: none;
@@ -8,10 +8,10 @@
   text-decoration: none;
 }
 
-body{
-  font-family: 'Roboto', sans-serif;
+body {
+  font-family: var(--font-primary);
   color: #434455;
-  background-color:#FFFFFF;
+  background-color: #ffffff;
 }
 
 /* HEADER */
@@ -68,6 +68,7 @@ body{
 }
 /* Title H1 */
 .section-title {
+  font-family: var(--font-primary);
   background-color: #2e2f42;
   width: 1440px;
   height: 600px;
@@ -84,7 +85,7 @@ body{
 
 /* batton order service */
 .modal-button {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--font-primary);
   align-items: flex-start;
   padding: 16px 32px;
   gap: 10px;
@@ -189,20 +190,20 @@ body{
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
-.footer-item-two{
+.footer-item-two {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  color: #F4F4FD;
+  color: #f4f4fd;
   letter-spacing: 0.03em;
-  text-transform: uppercase; 
+  text-transform: uppercase;
 }
 
 /* PORTFOLIO */
 /* BAttons */
 .modal-btn {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--font-primary);
   background-color: #f4f4fd;
   color: #4d5ae5;
   font-weight: 500;
@@ -219,9 +220,8 @@ body{
 .modal-btn:hover,
 .modal-btn:focus,
 .modal-button:focus {
-  
-  color: #FFFFFF;
-  background-color: #404BBF;
+  color: #ffffff;
+  background-color: #404bbf;
 }
 
 /* section 2 */
