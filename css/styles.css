@@ -84,6 +84,7 @@ body{
 
 /* batton order service */
 .modal-button {
+  font-family: 'Roboto', sans-serif;
   align-items: flex-start;
   padding: 16px 32px;
   gap: 10px;
@@ -146,7 +147,7 @@ body{
 .title-section-four {
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -201,6 +202,7 @@ body{
 /* PORTFOLIO */
 /* BAttons */
 .modal-btn {
+  font-family: 'Roboto', sans-serif;
   background-color: #f4f4fd;
   color: #4d5ae5;
   font-weight: 500;
@@ -212,10 +214,12 @@ body{
   flex: none;
   order: 0;
   flex-grow: 0;
+  cursor: pointer;
 }
 .modal-btn:hover,
+.modal-btn:focus,
 .modal-button:focus {
-  cursor: pointer;
+  
   color: #FFFFFF;
   background-color: #404BBF;
 }
