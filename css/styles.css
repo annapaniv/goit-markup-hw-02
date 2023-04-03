@@ -15,9 +15,9 @@
 }
 
 body {
-  font-family:var(--font-primary);
   color:var(--body-text);
-  color:var(--backgraund-color);
+  background-color:var(--backgraund-color);
+  font-family:var(--font-primary);
 }
 
 /* HEADER */
