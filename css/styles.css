@@ -1,6 +1,6 @@
 :root {
   --font-primary: Roboto,sans-serif;
-  --color-secondary-text: #434455;
+  --body-text: #434455;
   --backgraund-color: #ffffff;
   --color-title-h2-h3-darkbg: #2e2f42;
   --color-hover-focus: #404bbf;
@@ -16,7 +16,7 @@
 
 body {
   font-family:var(--font-primary);
-  color:var(--color-secondary-text);
+  color:var(--body-text);
   background-color:var(--backgraund-color);
   color:var(--color-title-h2-h3-darkbg);
   color:var(--color-hover-focus);
@@ -62,7 +62,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color:var(--color-secondary-text);
+  color:var(--body-text);
 }
 .adress {
   font-style: normal;
@@ -124,7 +124,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color:var(--color-secondary-text);
+  color:var(--body-text);
 }
 
 /* section 3 */
@@ -133,6 +133,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-title-h2-h3-darkbg);
@@ -156,6 +157,7 @@ body {
 .team {
   font-weight: 500;
   font-size: 20px;
+  text-align: center;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-title-h2-h3-darkbg);
@@ -163,9 +165,9 @@ body {
 }
 .team-role {
   font-size: 16px;
-  line-height: 1.54;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-secondary-text);
+  color: var(--body-text);
  
 }
 /* footer */
@@ -223,5 +225,5 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-secondary-text);
+  color: var(--body-text);
 }
